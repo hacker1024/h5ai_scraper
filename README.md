@@ -1,4 +1,4 @@
-# h5ai Scraper
+# h5ai scraper
 A CLI tool and Dart package that can scrape file and directory URLs from
 [h5ai](https://larsjung.de/h5ai/) instances.
 
