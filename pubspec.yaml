@@ -1,0 +1,20 @@
+name: h5ai_scraper
+description: Scrapes file and directory URLs from an h5ai instance.
+version: 0.1.0
+homepage: https://github.com/hacker1024/h5ai_scraper
+
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies:
+  args: ^2.3.0
+  http: ^0.13.4
+  path: ^1.8.1
+  proper_filesize: ^0.0.2
+  universal_html: ^2.0.8
+
+dev_dependencies:
+  lint: ^1.8.2
+
+executables:
+  h5ai-scrape: h5ai_scraper
